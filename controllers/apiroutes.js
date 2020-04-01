@@ -2,11 +2,15 @@ const db = require("../models");
 
 module.exports = app => {
   app.get("/api/workouts", (req, res) => {
-    db.Workout.find({}).then(dbWorkout => {
+    db.Workout.find().then(dbWorkout => {
       res.json(dbWorkout);
     });
   });
-
+  app.get("/api/workouts/range", (req, res) => {
+    db.Workout.find().limit(7).then(dbWorkout => {
+      res.json(dbWorkout);
+    });
+  });
   app.post("/api/workouts", (req, res) => {
     db.Workout.create(req.body).then(dbWorkout => {
       res.json(dbWorkout);
