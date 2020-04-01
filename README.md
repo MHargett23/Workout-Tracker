@@ -1,14 +1,14 @@
 # Workout-Tracker  
 
-User Story  
-AS AN avid traveller  
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection  
-SO THAT my account balance is accurate when I am traveling  
+##User Story  
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
+##Business Context
+A consumer will reach their fitness goals quicker when they track their workout progress.
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.  
-Offline Functionality:  
-Enter deposits offline  
-Enter expenses offline  
-When brought back online:  
-Offline entries should be added to tracker.
+##Acceptance Criteria
+When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+The user should be able to:  
+<ul><li>Add exercises to a previous workout plan.</li>
+<li>Add new exercises to a new workout plan.</li>
+<li>View multiple the combined weight of multiple exercises on the stats page.<li></ul>
