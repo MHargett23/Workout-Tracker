@@ -12,3 +12,8 @@ The user should be able to:
 <ul><li>Add exercises to a previous workout plan.</li>
 <li>Add new exercises to a new workout plan.</li>
 <li>View multiple the combined weight of multiple exercises on the stats page.<li></ul>
+
+Screen shot of deployed site:
+![Workout screen shot](public/assets/images/screenshot.png)
+
+Link to deployed site: (https://workout-tracker-for-fitness.herokuapp.com/)[Visit this website]
