@@ -20,3 +20,6 @@ The user should be able to:
 ![Workout Tracker screen shot](public/assets/images/ft.png)
 
 ![Workout Dashboard screen shot](public/assets/images/wd.png)
+
+### Authors
+Martin Hargett | [GitHub](https://github.com/MHargett23)  
